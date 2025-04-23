@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header Section -->
+    <header id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#hero">Anjali Singh</a>
+          </div>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            <li><a href="#certifications" class="nav-link">Certificates</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="theme-toggle">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="animate-fadeIn">
+              Hello, I'm <span class="highlight">Anjali Singh</span>
+            </h1>
+            <h2 class="animate-fadeIn delay-1">Cloud Engineer</h2>
+            <p class="animate-fadeIn delay-2">
+              I build exceptional digital experiences with scalable and efficient
+              cloud infrastructure.
+            </p>
+            <div class="hero-buttons animate-fadeIn delay-3">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-icons animate-fadeIn delay-4">
+              <a href="https://github.com/anjaliisinghh10" class="social-icon"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/anjaliisinghh10/"
+                class="social-icon"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://x.com/PiyushV818802" class="social-icon"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              
+            </div>
+          </div>
+          <div class="hero-image animate-fadeIn delay-2">
+            <img src="./images/profile1.jpg" alt="Profile Image" />
+          </div>
+        </div>
+        <div class="scroll-down animate-bounce">
+          <a href="#about">
+            <i class="fas fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt="About Me"
+            />
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+              Hi, I'm Anjali Singh, a passionate and dedicated Cloud Engineer who
+              thrives on designing scalable, secure, and efficient cloud-based solutions.
+              With a strong understanding of cloud infrastructure, DevOps practices, and 
+              automation tools, I aim to build resilient systems that empower businesses to
+              scale and innovate in the digital age.
+.
+            </p>
+            <p>
+              Whether it's architecting reliable cloud infrastructure or automating complex
+              deployment pipelines, I enjoy every aspect of cloud engineering. I'm constantly
+              exploring new cloud services, embracing best practices, and challenging myself
+              to grow in this ever-evolving field. Let’s collaborate and build secure, scalable
+              solutions that power great ideas!
+            </p>
+
+            <div class="about-info">
+              <div class="info-item">
+                <span class="info-title">Name:</span>
+                <span class="info-value">Anjali Singh</span>
+              </div>
+              <div class="info-item">
+                <span class="info-title">Email:</span>
+                <span class="info-value">anjaliisinghh10@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-title">Location:</span>
+                <span class="info-value">Patna, Bihar</span>
+              </div>
+              <div class="info-item">
+                <span class="info-title">Availability:</span>
+                <span class="info-value">Open to opportunities</span>
+              </div>
+            </div>
+            <a
+              href="https://drive.google.com/file/d/1W3nVAy6DT0fLggd8C5zRa9rA6WjmTNyF/view?usp=drive_link"
+              class="btn btn-primary"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-text">
+            <h3>What I'm good at</h3>
+            <p>
+              I've cultivated a strong and versatile skillset in cloud engineering, DevOps, and full-stack development. Proficient in programming languages like Python, Java, C++, and C, I design and automate scalable systems. My cloud expertise includes AWS (trained – certified architect), Terraform, and CloudFormation for infrastructure as code across multi-cloud environments. I work confidently with tools like Docker, Kubernetes, Jenkins, GitHub Actions, and CI/CD pipelines to ensure seamless deployment. On the monitoring front, I leverage Prometheus and Grafana for real-time insights. My foundation is backed by strong problem-solving skills, a detail-oriented mindset, and a constant drive to learn and innovate.            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Frontend 1 -->
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-html5-plain colored"></i>
+                      <h5>HTML5</h5>
+                    </div>
+                    <span>95%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="95"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-css3-plain colored"></i>
+                      <h5>CSS3</h5>
+                    </div>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-javascript-plain colored"></i>
+                      <h5>JavaScript</h5>
+                    </div>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="85"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-react-original colored"></i>
+                      <h5>React</h5>
+                    </div>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="C:\Users\LENOVO\Desktop\project-bolt-sb1\project-bolt-sb1-8zxyvzhf\project\images\bootstrap.jpeg">
+                      <i class="devicon-kotlin-plain colored"></i>
+                      <h5>Bootstrap</h5>
+                    </div>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-tailwindcss-plain colored"></i>
+                      <h5>Tailwind CSS</h5>
+                    </div>
+                    <span>70%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Database -->
+            <div class="skill-category">
+              <h4>Database</h4>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-mongodb-plain colored"></i>
+                      <h5>MongoDB</h5>
+                    </div>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-mysql-plain colored"></i>
+                      <h5>MySQL</h5>
+                    </div>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-sqlite-plain colored"></i>
+                      <h5>SQLite</h5>
+                    </div>
+                    <span>75%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-postgresql-plain colored"></i>
+                      <h5>PostgreSQL</h5>
+                    </div>
+                    <span>70%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-firebase-plain colored"></i>
+                      <h5>Firebase</h5>
+                    </div>
+                    <span>65%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="65"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category">
+              <h4>Backend</h4>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-nodejs-plain colored"></i>
+                      <h5>Node.js</h5>
+                    </div>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-php-plain colored"></i>
+                      <h5>PHP</h5>
+                    </div>
+                    <span>75%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-postgresql-plain colored"></i>
+                      <h5>SQL</h5>
+                    </div>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="85"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Programming -->
+            <div class="skill-category">
+              <h4>Programming Languages</h4>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-cplusplus-plain colored"></i>
+                      <h5>C++</h5>
+                    </div>
+                    <span>85%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-java-plain colored"></i>
+                      <h5>Java</h5>
+                    </div>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-python-plain colored"></i>
+                      <h5>Python</h5>
+                    </div>
+                    <span>75%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <div class="skill-icon-name">
+                      <i class="devicon-c-plain colored"></i>
+                      <h5>C</h5>
+                    </div>
+                    <span>70%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Achievements</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="achievements-grid">
+          <div class="achievement-card reveal">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3>Total problems solved</h3>
+            <p>
+              Solved total 200+ problems on various platforms like Leetcode,
+              GeeksforGeeks.
+            </p>
+            <span class="achievement-year">Present</span>
+          </div>
+          <div class="achievement-card reveal">
+            <div class="achievement-icon">
+              <img
+                src="images/cll.jpeg"
+                alt="100 Days Leetcode Badge"
+                style="width: 50px; height: 50px"
+              />
+            </div>
+            <h3> Cloud Computing Architect Badge: AWS </h3>
+            <p>
+              Earned recognition for expertise in cloud architecture and deployment strategies on AWS
+            </p>
+            <span class="achievement-year">2024</span>
+          </div>
+
+          <div class="achievement-card reveal">
+            <div class="achievement-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3>Hackathon Winner</h3>
+            <p>
+              Third place in Coding Ninjas hackathon named Binary Blitz for
+              developing a marketplace platform for Artisans
+            </p>
+            <span class="achievement-year">2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Certificates</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="certifications-grid">
+          <div class="certification-card reveal">
+            <div class="certification-logo">
+              <img
+                src="https://btech.id/media/images/Page/2022/11/29/cloudcomputing-1007535501"
+                alt="cloud Certificate"
+              />
+            </div>
+            <div class="certification-content">
+              <h3>Cloud Computing Architect</h3>
+              <p>AWS</p>
+              <div class="certification-details">
+                <span><i class="fas fa-calendar"></i> 2024</span>
+                <!-- <span><i class="fas fa-clock"></i> Valid until 2026</span> -->
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1O-yz3_bHjFOhbNQt8ehW0qcLgkrtNRZn/view?usp=drive_link"
+                class="btn btn-secondary"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+          <div class="certification-card reveal">
+            <div class="certification-logo">
+              <img
+                src="https://media.licdn.com/dms/image/v2/D5612AQFMxThwQn7HZg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697274440798?e=1750896000&v=beta&t=sI5vBmB8um8TqyONne-IEhoS7Q6gIJMPmo8t5FPtJRM"
+                alt="HTML-CSS-JS Certificate"
+              />
+            </div>
+            <div class="certification-content">
+              <h3>HTML, CSS, and Javascript for Web Developers</h3>
+              <p>Cipher Schools</p>
+              <div class="certification-details">
+                <span><i class="fas fa-calendar"></i> 2024</span>
+                <!-- <span><i class="fas fa-clock"></i> Valid until 2025</span> -->
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1hxpXtIRpPaIbmpQg2_3XOpGxNI8cW_Ul/view?usp=drive_link"
+                class="btn btn-secondary"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+          <div class="certification-card reveal">
+            <div class="certification-logo">
+              <img
+                src="data:image/png;base64,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"
+                alt="Nodejs Certificate"
+              />
+            </div>
+            <div class="certification-content">
+              <h3>Microsoft Azure Administrator</h3>
+              <p>Microsoft</p>
+              <div class="certification-details">
+                <span><i class="fas fa-calendar"></i> 2022</span>
+                <!-- <span><i class="fas fa-clock"></i> Valid until 2024</span> -->
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1kpMxneO92Up6Nlnc6_A3EwRxGZ_hdb0S/view?usp=drive_link"
+                class="btn btn-secondary"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="section-header"></div>
+        <div class="certifications-grid">
+          <div class="certification-card reveal">
+            <div class="certification-logo">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="Android Certificate"
+              />
+            </div>
+            <div class="certification-content">
+              <h3>Introduction to Machine Learning</h3>
+              <p>NPTEL</p>
+              <div class="certification-details">
+                <span><i class="fas fa-calendar"></i> 2024</span>
+                <!-- <span><i class="fas fa-clock"></i> Valid until 2026</span> -->
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1Bt9tiX2PC4O5xW367p3qx7tlXMJgXwv7/view?usp=drive_link"
+                class="btn btn-secondary"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+          <div class="certification-card reveal">
+            <div class="certification-logo">
+              <img
+                src="https://marketing.caddcentre.com/uploads/banners/1680687244_c++.webp"
+                alt="Google Certification"
+              />
+            </div>
+            <div class="certification-content">
+              <h3>Mastering Data Structures and Algorithms using C & C++</h3>
+              <p>Udemy</p>
+              <div class="certification-details">
+                <span><i class="fas fa-calendar"></i> 2023</span>
+                <!-- <span><i class="fas fa-clock"></i> Valid until 2025</span> -->
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1cocn6x2nsOXUyCTDRy7C6tMoJMvOvo8C/view?usp=drive_link"
+                class="btn btn-secondary"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+          <div class="certification-card reveal">
+            <div class="certification-logo">
+              <img
+                src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Meta Certification"
+              />
+            </div>
+            <div class="certification-content">
+              <h3>Python</h3>
+              <p>Cipher Schools</p>
+              <div class="certification-details">
+                <span><i class="fas fa-calendar"></i> 2022</span>
+                <!-- <span><i class="fas fa-clock"></i> Valid until 2024</span> -->
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1nHDkW9PXlKNywCG4uWs-FPdLqFN3Mfb7/view?usp=drive_link"
+                class="btn btn-secondary"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-grid">
+          <!-- Project cards will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Experience & Other details</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+          <!-- Timeline items will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+              Feel free to reach out to me for collaborations, opportunities, or
+              just to say hello!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Patna, Bihar</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>anjaliisinghh10@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+91-7973826271</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-icons">
+              <a href="https://github.com/anjaliisinghh10" class="social-icon"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/anjaliisinghh10/"
+                class="social-icon"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://x.com/anjaliisinghh10" class="social-icon"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send Me a Message</h3>
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/mjkvbpjp"
+              method="POST"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Anjali Singh</h3>
+          </div>
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/anjaliisinghh10" class="social-icon"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/anjaliisinghh10/"
+              class="social-icon"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/anjaliisinghh10" class="social-icon"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Anjali Singh. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/experience.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

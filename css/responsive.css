@@ -1,0 +1,232 @@
+/* Responsive Styles */
+
+/* Large Desktops (1200px and up) */
+@media (min-width: 1200px) {
+  :root {
+    --font-size-4xl: 3.5rem;  /* 56px */
+  }
+}
+
+/* Laptops and Desktops (992px and up) */
+@media (max-width: 1199px) {
+  :root {
+    --font-size-4xl: 2.75rem;  /* 44px */
+    --font-size-3xl: 2.25rem;  /* 36px */
+    --container-width: 960px;
+  }
+  
+  .skills-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .skills-text {
+    max-width: 600px;
+    margin: 0 auto var(--spacing-lg);
+  }
+}
+
+/* Tablets (768px and up) */
+@media (max-width: 991px) {
+  :root {
+    --font-size-4xl: 2.5rem;   /* 40px */
+    --font-size-3xl: 2rem;     /* 32px */
+    --font-size-2xl: 1.75rem;  /* 28px */
+    --container-width: 720px;
+    --section-padding: 4rem 0;
+  }
+  
+  .hero-content,
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+  
+  .hero-text {
+    order: 1;
+    text-align: center;
+  }
+  
+  .hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+  
+  .hero-image {
+    order: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .about-image {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+  
+  .contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .timeline::after {
+    left: 40px;
+  }
+  
+  .timeline-item {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 0;
+  }
+  
+  .timeline-item:nth-child(even) {
+    left: 0;
+  }
+  
+  .timeline-item::after {
+    left: 28px;
+  }
+
+  .achievements-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .certification-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile Devices (576px and up) */
+@media (max-width: 767px) {
+  :root {
+    --font-size-4xl: 2.25rem;  /* 36px */
+    --font-size-3xl: 1.75rem;  /* 28px */
+    --font-size-2xl: 1.5rem;   /* 24px */
+    --font-size-xl: 1.25rem;   /* 20px */
+    --container-width: 540px;
+    --section-padding: 3rem 0;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--bg-light);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-lg);
+    z-index: var(--z-fixed);
+  }
+  
+  .nav-menu.active {
+    right: 0;
+  }
+  
+  .nav-menu li {
+    margin: var(--spacing-md) 0;
+  }
+  
+  .nav-toggle {
+    display: flex;
+    z-index: var(--z-fixed);
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    text-align: center;
+  }
+  
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+
+  .achievement-card {
+    padding: var(--spacing-lg);
+  }
+  
+  .achievement-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .achievement-icon i {
+    font-size: 1.5rem;
+  }
+  
+  .certification-logo {
+    height: 150px;
+  }
+}
+
+/* Very Small Devices (Under 576px) */
+@media (max-width: 575px) {
+  :root {
+    --container-width: 100%;
+    --section-padding: 2.5rem 0;
+  }
+  
+  .container {
+    width: 90%;
+  }
+  
+  .hero-text h1 {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .hero-text h2 {
+    font-size: var(--font-size-xl);
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-header {
+    margin-bottom: var(--spacing-xl);
+  }
+}
